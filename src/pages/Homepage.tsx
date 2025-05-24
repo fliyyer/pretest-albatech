@@ -91,7 +91,7 @@ const Homepage = () => {
                     Learn more
                 </button>
             </section>
-            <section className="flex flex-col w-full mb-10 md:my-20 items-center max-w-7xl mx-auto">
+            <section className="flex flex-col w-full mb-10 items-center max-w-7xl mx-auto">
                 <p className="text-gray-400 ">Testimonial</p>
                 <h2 className="text-2xl md:text-3xl mt-2 font-semibold leading-tight text-center text-secondary">What clients love in working with Albatech Team</h2>
                 <div className="grid px-4 lg:px-0 grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto  gap-10 justify-center my-10">
