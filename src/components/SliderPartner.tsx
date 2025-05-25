@@ -35,12 +35,12 @@ const SliderPartner = () => {
                 {partnerData.map((partner, index) => (
                     <div
                         key={index}
-                        className="min-w-[10%] flex-shrink-0 snap-center flex justify-center items-center"
+                        className="w-[15%] md:min-w-[10%] flex-shrink-0 snap-center flex justify-center items-center"
                     >
                         <img
                             src={partner.image}
                             alt={partner.title}
-                            className=" object-contain size-56 transition duration-300"
+                            className=" object-contain size-14 md:size-56 transition duration-300"
                         />
                     </div>
                 ))}

@@ -15,7 +15,7 @@ const Homepage = () => {
             <Navbar />
             <header className="mt-32 flex w-full max-w-7xl flex-col items-center justify-between px-4 md:flex-row md:mx-auto">
                 <div className="relative w-full md:w-1/2 mb-10 md:mb-0">
-                    <h1 className="text-4xl md:text-5xl font-semibold leading-tight text-secondary">
+                    <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-secondary">
                         Build or scale up
                         <br />
                         <span className="font-normal">your development team</span>
@@ -41,7 +41,7 @@ const Homepage = () => {
             <section className="flex flex-col w-full my-20 items-center max-w-7xl mx-auto">
                 <p className="text-gray-400 ">Complete Packpage</p>
                 <h2 className="text-2xl text-center md:text-3xl mt-2 font-semibold leading-tight text-secondary">From product design to software continous delivery</h2>
-                <div className="grid px-4 md:px-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12 my-10">
+                <div className="grid px-4 lg:px-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12 my-10">
                     {servicesData.map((service, index) => (
                         <CardServices
                             key={index}
@@ -62,7 +62,7 @@ const Homepage = () => {
                     ))}
                 </div>
             </section>
-            <section className="flex flex-col mb-10 w-full items-center py-10 mx-auto bg-secondary">
+            <section className="flex px-4 lg:px-0 flex-col mb-10 w-full items-center py-10 mx-auto bg-secondary">
                 <h2 className="text-xl md:text-3xl mt-2 font-semibold leading-tight max-w-3xl text-center text-primary">Our Progress Comes with a Collaboration Between Creativy, Ideas, and Technology</h2>
                 <div className="grid grid-cols-3 items-center w-full max-w-7xl mx-auto my-5">
                     {progressData.map((progress, index) => (
